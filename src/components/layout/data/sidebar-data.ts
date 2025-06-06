@@ -25,18 +25,18 @@ import { type SidebarData } from '../types'
 
 export const sidebarData: SidebarData = {
   user: {
-    name: 'satnaing',
-    email: 'satnaingdev@gmail.com',
+    name: 'Carlo Silva',
+    email: 'caloysilva@gmail.com',
     avatar: '/avatars/shadcn.jpg',
   },
   teams: [
     {
-      name: 'Shadcn Admin',
+      name: 'Admin',
       logo: Command,
-      plan: 'Vite + ShadcnUI',
+      plan: 'Mexpay Inc',
     },
     {
-      name: 'Acme Inc',
+      name: 'Mexpay Inc',
       logo: GalleryVerticalEnd,
       plan: 'Enterprise',
     },
@@ -56,17 +56,17 @@ export const sidebarData: SidebarData = {
           icon: IconLayoutDashboard,
         },
         {
-          title: 'Tasks',
+          title: 'Billers',
           url: '/tasks',
           icon: IconChecklist,
         },
         {
-          title: 'Apps',
+          title: 'Transactions',
           url: '/apps',
           icon: IconPackages,
         },
         {
-          title: 'Chats',
+          title: 'Reports',
           url: '/chats',
           badge: '3',
           icon: IconMessages,
@@ -100,7 +100,7 @@ export const sidebarData: SidebarData = {
       title: 'Pages',
       items: [
         {
-          title: 'Auth',
+          title: 'Administration',
           icon: IconLockAccess,
           items: [
             {
